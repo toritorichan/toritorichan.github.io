@@ -1,0 +1,211 @@
+
+
+
+    html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #e5c59e;
+    }
+
+    /*logo*/
+    .banner{
+      
+     position: relative; 
+     margin:0 auto;
+     bottom: 20px;
+     width: 850px;
+     
+    }
+
+   .wrapper{
+
+    position: relative;
+
+    left: 0px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    min-height: 100%;
+
+    margin-bottom: -75px; /*隨footer高度需做調整*/
+
+    background-color: #fff;
+
+
+   }
+
+    /*底部*/
+    .footer{
+
+    position: relative;
+
+    margin:0 auto;
+    padding-top: 25px;
+    height: 50px;
+    width: 850px;
+    text-align: center;
+    font-family: 微軟正黑體;
+    background-color:  #FFE153;
+    opacity: 50%;
+
+    }
+
+    .footer:hover{
+    background-color:  #B87070;
+    }
+
+
+    /*內容*/
+    .content{
+
+
+    position: relative;
+    top:100px; 
+    left: 0px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    height: 500px;
+
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+
+    font-family: 微軟正黑體;
+    font-size: 16px;
+
+
+    }
+
+
+
+    td { 
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px transparent;
+    padding: 50px 50px 50px 100px;
+
+    font-family: 微軟正黑體;
+    color: #B87070;
+    font-size: 16px;
+    text-align: center;
+    } 
+
+    /**/
+    .contentEmpty{
+
+    position: relative;
+    top:100px; 
+    left: 0px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    height: 50px;
+
+    }
+
+    
+
+    /*目錄*/
+
+    .container{
+
+     position: relative;
+     margin:0 auto;
+     width: 850px;
+     height: 70px;
+
+     
+    }
+
+    ul { /* 取消ul預設的內縮及樣式 */
+
+       
+        padding: 0 auto;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {
+
+        
+        border: transparent;
+        font-family: 微軟正黑體;
+        font-size: 16px;
+    }
+
+    ul.drop-down-menu li {
+        border-radius: 6px;
+        border-right: transparent;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }
+
+     ul.drop-down-menu a {
+        background-color: #fff;
+        border-radius: 6px;
+        color: #333;
+        display: block;
+        padding: 0 30px;
+        text-decoration: none;
+        line-height: 40px;
+
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color:  #B87070;
+        opacity: 50%;
+        color: #fff;
+    }
+
+    /*動畫*/
+    .slide-right {
+     -webkit-animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+          animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    }
+    @-webkit-keyframes slide-right {
+      0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+     }
+    }
+    @keyframes slide-right {
+    0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    }
+    100% {
+     -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+    }
+    }
+
+  .slide-left {
+    -webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+          animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    }
+
+
+    @-webkit-keyframes slide-left {
+     0% {
+        -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    }
+    }
+    }
