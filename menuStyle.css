@@ -5,16 +5,31 @@
     height: 100%;
     margin: 0;
     background-color: #e5c59e;
+    background-image: url(bg.png);
+    background-repeat: repeat;
+
+    }
+
+    img{
+
+    box-shadow:0px 0px 7px #B87070;
+
     }
 
     /*logo*/
     .banner{
-      
+
      position: relative; 
      margin:0 auto;
      bottom: 20px;
      width: 850px;
      
+    }
+
+    .banner img{
+
+    box-shadow:none;
+
     }
 
    .wrapper{
@@ -29,6 +44,8 @@
 
     margin-bottom: -75px; /*隨footer高度需做調整*/
 
+    border-radius: 10px;
+    box-shadow:0px 0px 12px #B87070;
     background-color: #fff;
 
 
@@ -40,12 +57,15 @@
     position: relative;
 
     margin:0 auto;
-    padding-top: 25px;
-    height: 50px;
+    padding-top: 10px;
+    height: 65px;
     width: 850px;
     text-align: center;
     font-family: 微軟正黑體;
     background-color:  #FFE153;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     opacity: 50%;
 
     }
@@ -55,17 +75,17 @@
     }
 
 
-    /*內容*/
-    .content{
+    /*作者內容*/
+    .contentAuthor{
 
 
     position: relative;
-    top:100px; 
+    top:20px; 
     left: 0px;
     right: 0px;
     margin:0 auto;
     width: 850px;
-    height: 500px;
+    height: 650px;
 
     padding-bottom: 50px; /*隨footer高度需做調整*/
 
@@ -74,10 +94,7 @@
 
 
     }
-
-
-
-    td { 
+    .contentAuthor td { 
 
     position: relative; 
     margin:0 auto;
@@ -85,7 +102,7 @@
     right: 0px;
         
     border:1px transparent;
-    padding: 50px 50px 50px 100px;
+    padding: 50px 50px 50px 120px;
 
     font-family: 微軟正黑體;
     color: #B87070;
@@ -97,25 +114,213 @@
     .contentEmpty{
 
     position: relative;
-    top:100px; 
+    top:0px; 
+    bottom:20px;
     left: 0px;
     right: 0px;
     margin:0 auto;
     width: 850px;
-    height: 50px;
+    height: 100px;
+
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+
+
+    font-family: 微軟正黑體;
+    font-size: 16px;
+
 
     }
 
+    .contentEmpty img{
+
+    box-shadow:none;
+
+    }
+
+     .contentEmpty td { 
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px transparent;
+    padding: 50px 50px 50px 120px;
+
+    font-family: 微軟正黑體;
+    color: #e5c59e;
+    font-size: 16px;
+    text-align: right;
+    } 
+
+
+    /*聯繫內容*/
+    .contentContact{
+
+
+    position: relative;
+    top:20px; 
+    left: 0px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    height: 400px;
+
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+
+    font-family: 微軟正黑體;
+    font-size: 16px;
+
+
+    }
+
+     .contentContact img{
+
+        box-shadow:none;
+
+     }
+
+    .contentContact a{
+
+        color: #B87070;
+        text-decoration: none;
+
+
+    }
+
+    .contentContact a:hover{
+
+        color: #FFE153;
+
+
+    }
+
+    .contentContact td { 
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px transparent;
+    padding: 10px 10px 10px 60px;
+
+    font-family: 微軟正黑體;
+    color: #B87070;
+    font-size: 16px;
+    text-align: left;
+    } 
     
+    /*價格內容*/
+
+    .contentPrice{
+
+
+    position: relative;
+    top:20px; 
+    left: 80px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    height: 800px;
+
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+
+    font-family: 微軟正黑體;
+    font-size: 16px;
+
+
+    }
+
+    .contentPrice td { 
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px transparent;
+    padding: 10px 10px 10px 60px;
+
+    font-family: 微軟正黑體;
+    color: #B87070;
+    font-size: 16px;
+    text-align: left;
+    } 
+
+    .contentPrice th { 
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px transparent;
+    padding: 10px 10px 10px 60px;
+
+    font-family: 微軟正黑體;
+    box-shadow:0px 1px 0px #e0bb8d;
+    color: #e69129;
+    font-size: 16px;
+    text-align: left;
+    } 
+
+    /*作品*/
+
+    .contentArts{
+
+
+    position: relative;
+    top:20px; 
+    left: 10px;
+    right: 0px;
+    margin:0 auto;
+    width: 850px;
+    height: 700px;
+
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+
+    font-family: 微軟正黑體;
+    font-size: 16px;
+
+
+    }
+
+    .contentArts img{
+
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .contentArts td { 
+
+
+    position: relative; 
+    margin:0 auto;
+    left: 0px;
+    right: 0px;
+        
+    border:1px ;
+    padding: 50px 50px 50px 110px;
+
+    font-family: 微軟正黑體;
+    color: #B87070;
+    font-size: 16px;
+    text-align: center;
+    } 
+
+
 
     /*目錄*/
 
     .container{
 
+
      position: relative;
      margin:0 auto;
      width: 850px;
-     height: 70px;
+     height: 80px;
 
      
     }
@@ -129,22 +334,21 @@
 
     ul.drop-down-menu {
 
-        
         border: transparent;
         font-family: 微軟正黑體;
         font-size: 16px;
     }
 
     ul.drop-down-menu li {
-        border-radius: 6px;
-        border-right: transparent;
+
+        box-shadow:0px 0px 9px #e5c59e;
+        margin-right: 7px;
+        border-radius: 10px;
+        border: transparent;
         position: relative;
         white-space: nowrap;
     }
 
-    ul.drop-down-menu > li:last-child {
-        border-right: none;
-    }
 
     ul.drop-down-menu > li {
         float: left; /* 只有第一層是靠左對齊*/
@@ -153,23 +357,25 @@
      ul.drop-down-menu a {
         background-color: #fff;
         border-radius: 6px;
-        color: #333;
+        color: #B87070;
         display: block;
-        padding: 0 30px;
+        padding: 0 28px;
         text-decoration: none;
         line-height: 40px;
 
     }
     ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
-        background-color:  #B87070;
+        box-shadow:0px 0px 9px #B87070;
+        background-color: #B87070;
         opacity: 50%;
         color: #fff;
     }
 
     /*動畫*/
     .slide-right {
-     -webkit-animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
-          animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+
+     -webkit-animation: slide-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+          animation: slide-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
     }
     @-webkit-keyframes slide-right {
       0% {
@@ -177,31 +383,21 @@
             transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+      -webkit-transform: translateX(200px);
+            transform: translateX(200px);
      }
-    }
-    @keyframes slide-right {
-    0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    }
-    100% {
-     -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-    }
     }
 
   .slide-left {
-    -webkit-animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
-          animation: slide-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+          animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
     }
 
 
     @-webkit-keyframes slide-left {
      0% {
-        -webkit-transform: translateX(200px);
-            transform: translateX(200px);
+        -webkit-transform: translateX(150px);
+            transform: translateX(150px);
     }
     100% {
         -webkit-transform: translateX(0px);
