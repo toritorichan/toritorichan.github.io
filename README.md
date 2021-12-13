@@ -1,1 +1,1 @@
-# toritorichan.github.io
+# toritorichan.github.io/menu.html
